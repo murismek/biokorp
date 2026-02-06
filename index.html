@@ -3,35 +3,111 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Face Aesthetic Assessment</title>
+    <title>BioKorp - Face Aesthetic Assessment</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Face Aesthetic Assessment Service</h1>
-        <p>Enhance your beauty with our professional assessments!</p>
-        <a href="#upload" class="cta-button">Get Started</a>
-    </header>
+    <div class="container">
+        <!-- HEADER -->
+        <header>
+            <div class="header-content">
+                <h1>BioKorp</h1>
+                <p class="tagline">Professional Face Aesthetic Assessment Service</p>
+            </div>
+            <nav>
+                <a href="#about">O nama</a>
+                <a href="#features">Prednosti</a>
+                <a href="#tips">Savjeti</a>
+                <a href="#upload">Učitaj sliku</a>
+            </nav>
+        </header>
 
-    <section id="features">
-        <h2>Features</h2>
-        <ul>
-            <li>Expert evaluations</li>
-            <li>Personalized reports</li>
-            <li>Privacy guaranteed</li>
-        </ul>
-    </section>
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <h2>Otkrijte svoju ljepotu s BioKorp</h2>
+            <p>Profesionalna procjena estetike vašeg lica od strane stručnjaka</p>
+            <a href="#upload" class="cta-button">Počni sada</a>
+        </section>
 
-    <section id="upload">
-        <h2>Upload Your Photo</h2>
-        <form action="#" method="post">
-            <input type="file" name="photo" accept="image/*" required>
-            <button type="submit">Submit</button>
-        </form>
-    </section>
+        <!-- ABOUT SECTION -->
+        <section id="about" class="about">
+            <h2>O nama</h2>
+            <p>BioKorp je vodeća usluga za procjenu estetike lica. Naši stručnjaci pružaju detaljne preporuke za poboljšanje vaše ljepote i samopouzdanja.</p>
+            <p>Sa više od 10 godina iskustva, pomagali smo hiljade osoba da otkrijuće sve svoje potencijale.</p>
+        </section>
 
-    <footer>
-        <p>&copy; 2026 Face Aesthetic Assessment. All rights reserved.</p>
-    </footer>
+        <!-- FEATURES SECTION -->
+        <section id="features" class="features">
+            <h2>Naše prednosti</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <h3>Ekspertna Procjena</h3>
+                    <p>Detaljne analize od iskusnih profesionalaca sa sertifikatima</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Personalizovani Izvještaji</h3>
+                    <p>Prilagođeni savjeti posebno za vašu licu i tip kože</p>
+                </div>
+                <div class="feature-card">
+                    <h3>Privatnost Zagarantovana</h3>
+                    <p>Sve slike su enkriptovane i nikada se ne dijele</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- TIPS SECTION -->
+        <section id="tips" class="tips">
+            <h2>Savjeti za Poboljšanje Ljepote</h2>
+            <div class="tips-grid">
+                <div class="tip-card">
+                    <h4>1. Zdravo Hranjenje</h4>
+                    <p>Unos vode, minerala i antioksidanata čine vašu kožu mlađom i blistavljom</p>
+                </div>
+                <div class="tip-card">
+                    <h4>2. Redovna Njega Kože</h4>
+                    <p>Čišćenje, hidratacija i zaštita od sunca su ključna za zdravu kožu</p>
+                </div>
+                <div class="tip-card">
+                    <h4>3. Redovno Vježbanje</h4>
+                    <p>Fizička aktivnost poboljšava cirkulaciju i daje vam prirodni sjaj</p>
+                </div>
+                <div class="tip-card">
+                    <h4>4. Dovoljan Sna</h4>
+                    <p>7-8 sati kvalitetnog sna je esencijalno za regeneraciju kože</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- UPLOAD SECTION -->
+        <section id="upload" class="upload-section">
+            <h2>Učitaj Svoju Sliku</h2>
+            <p>Pošalji fotografiju svog lica i naši stručnjaci će te kontaktirati sa detaljnom procjenom</p>
+            <form class="upload-form">
+                <div class="form-group">
+                    <label for="name">Ime i Prezime:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="photo">Odaberi fotografiju:</label>
+                    <input type="file" id="photo" name="photo" accept="image/*" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Dodatne napomene (opcionalno):</label>
+                    <textarea id="message" name="message" rows="4"></textarea>
+                </div>
+                <button type="submit" class="submit-button">Pošalji Sliku</button>
+            </form>
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <p>&copy; 2026 BioKorp. Sva prava zadržana.</p>
+            <p>Email: info@biokorp.com | Telefon: +387 1 234 5678</p>
+        </footer>
+    </div>
 </body>
 </html>
