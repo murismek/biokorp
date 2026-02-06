@@ -1,0 +1,47 @@
+.container {
+  background-color: white;
+  color: black;
+  font-family: 'Arial', sans-serif;
+  padding: 20px;
+}
+
+header {
+  background-color: grey;
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.feature {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  width: 30%;
+}
+
+.upload-section {
+  margin: 20px 0;
+}
+
+.upload-section input[type='file'] {
+  margin: 10px 0;
+}
+
+.tips {
+  margin: 20px 0;
+  font-style: italic;
+}
+
+footer {
+  background-color: grey;
+  padding: 10px;
+  text-align: center;
+}
